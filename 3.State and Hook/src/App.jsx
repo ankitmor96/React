@@ -1,5 +1,8 @@
 import { useState } from "react";
 import State_01 from "./components/State_01.jsx";
+import State_02 from "./components/state_02.jsx";
+import PrevState_03 from "./components/PrevState_03.jsx";
+import PrevState_04 from "./components/PrevState_04.jsx";
 
 const App = ()=>{
 
@@ -9,7 +12,14 @@ const App = ()=>{
 
   return(
     <> 
-     <State_01/> 
+     <State_01/>  // jyare count +1 kariye tyare
+
+     {/* <State_02/> */} // jyare input sathe update pan kariye tyare
+
+     {/* <PrevState_03/>*/} // jyare previous state + kariye tyare 
+
+     {/* <PrevState_04/>*/} // jyare previous input update karvu hoy tyare 
+
     </>
   );
 
