@@ -4,7 +4,8 @@ import State_02 from "./components/state_02.jsx";
 import PrevState_03 from "./components/PrevState_03.jsx";
 import PrevState_04 from "./components/PrevState_04.jsx";
 import ObjectUseState from "./components/objectUseState_05.jsx";
-import LifeCycle_06 from "./components/LifeCycle_06.jsx"
+import LifeCycle_06 from "./components/LifeCycle_06.jsx";
+import FeatchApi_07 from "./components/FeatchApi_07.jsx"
 
 const App = ()=>{
 
@@ -24,7 +25,9 @@ const App = ()=>{
 
      {/* <ObjectUseState /> */}
 
-     <LifeCycle_06/>
+     {/* <LifeCycle_06/> */}
+
+     <FeatchApi_07/>
 
     </>
   );

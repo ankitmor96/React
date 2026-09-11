@@ -20,7 +20,7 @@ const App = () => {
 
     useEffect(() => {
         console.log("Updating");
-    }, [count]); // with dependency
+    }, []); // empty dependency
 
 
     // unmounting :- remove task
@@ -31,7 +31,7 @@ const App = () => {
             console.log("Unmounting");
         };
 
-    }, []); // with empty dependency
+    }, [count]); // with dependency
 
 
     const handleClick = () => {
