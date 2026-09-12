@@ -5,7 +5,8 @@ import PrevState_03 from "./components/PrevState_03.jsx";
 import PrevState_04 from "./components/PrevState_04.jsx";
 import ObjectUseState from "./components/objectUseState_05.jsx";
 import LifeCycle_06 from "./components/LifeCycle_06.jsx";
-import FeatchApi_07 from "./components/FeatchApi_07.jsx"
+import FetchApi_07 from "./components/FetchApi_07.jsx"
+import FetchApi_error_08 from "./components/FetchApi_error_08.jsx";
 
 const App = ()=>{
 
@@ -27,7 +28,9 @@ const App = ()=>{
 
      {/* <LifeCycle_06/> */}
 
-     <FeatchApi_07/>
+     {/* <FetchApi_07/> */}
+
+     <FetchApi_error_08/>
 
     </>
   );
