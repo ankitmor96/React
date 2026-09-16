@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const FetchApi_error_08 = () => {
+const AxiosApi_09 = () => {
     const [user, setUser] = useState([]);
     const [fetchData, setFetchData] = useState(false);
     const [error, setError] = useState(null);
@@ -69,5 +69,5 @@ const FetchApi_error_08 = () => {
     );
 };
 
-export default FetchApi_error_08;
+export default AxiosApi_09;
 
