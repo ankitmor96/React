@@ -54,7 +54,7 @@ const AddToDo_01 = ({handleAdd,selectedTodo,handleUpdate}) => {
 
                 <input
                     type="text"
-                    placeholder="enter ypur text"
+                    placeholder="enter your text"
                     value={input.task}
                     onChange={(e)=> handleChange("task",e)}
                     required
@@ -64,7 +64,7 @@ const AddToDo_01 = ({handleAdd,selectedTodo,handleUpdate}) => {
 
                 <input  
                     type="text"
-                    placeholder="enter ypur text"
+                    placeholder="enter your text"
                     value={input.description}
                     onChange={(e)=> handleChange("description",e)}
                     required
