@@ -1,15 +1,25 @@
 
-import AddExpense from "./components/AddExpense";
+import AddExpense from "./components/AddExpense"
+import DashBoard from "./components/DashBoard";
+import ExpenseList from "./components/ExpenseList";
 
-
-function App() {
+const App = () => {
+    
     return (
         <>
-            <h1>Expense Tracker</h1>
-            <AddExpense />
-           
+
+        <AddExpense />
+
+        <br />
+
+        <DashBoard />
+
+        <br />
+
+        <ExpenseList />
+        
         </>
-    );
-}
+    )
+};
 
 export default App;
