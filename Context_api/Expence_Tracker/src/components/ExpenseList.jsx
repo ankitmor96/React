@@ -7,7 +7,18 @@ const ExpenseList = () => {
     const { expenseList , handleEdit ,handleDelete } = useContext(expenseContext)
 
     return (
+
+
         <>
+
+        <form action="">
+            <input type="text"
+            placeholder="enter Title"
+             />
+        </form>
+
+        <br />
+        <br />
             <table>
                 <thead>
                     <tr>

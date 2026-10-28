@@ -2,9 +2,17 @@
 
 import React from 'react';
 
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
     return (
-        <h1>Navbar</h1>
+
+        <ul style={{display:"flex", gap:"2rem"}}>
+         <NavLink to={"/"}>Home</NavLink>
+         <NavLink to={"/about"}>About</NavLink>
+         <NavLink to={"/service"}>Service</NavLink>
+        </ul>
+        
     )
 }
 
